@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "lista-pokemons"
+  "defaultProject": "lista-pokemons",
+  "cli": {
+    "analytics": false
+  }
 }

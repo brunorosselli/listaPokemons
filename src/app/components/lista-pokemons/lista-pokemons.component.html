@@ -1,0 +1,18 @@
+<table class="table w-50 border">
+    <thead class="bg-warning">
+      <tr>
+        <th scope="col">Linhas: </th>
+        <th scope="col">Nome:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pokemon of pokemons[0] let idx = index">
+        <td>
+          {{idx + 1}}
+        </td>
+        <td>
+          {{primeiraLetraMaiuscula(pokemon.name)}}
+        </td>
+      <tr>
+    </tbody>
+  </table>
